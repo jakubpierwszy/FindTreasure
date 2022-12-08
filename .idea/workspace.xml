@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="918bbfa9-6178-4515-a32c-1dbc1edec2d6" name="Changes" comment="pom change version">
+    <list default="true" id="918bbfa9-6178-4515-a32c-1dbc1edec2d6" name="Changes" comment="Find treasure impl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/find_treasure/FindTreasure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/find_treasure/Moves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/print_map/CreateMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/print_map/CreateMap.java" afterDir="false" />
     </list>
@@ -56,6 +58,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="FindTreasure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="find_treasure.FindTreasure" />
+      <module name="FindTreasure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="find_treasure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FindTreasure" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,6 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670500977637</updated>
       <workItem from="1670500978941" duration="5551000" />
+      <workItem from="1670512429646" duration="9176000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <created>1670501225659</created>
@@ -87,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670502849995</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="clear">
+      <created>1670507721286</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670507721286</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +137,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project" />
     <MESSAGE value="pom change version" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom change version" />
+    <MESSAGE value="clear" />
+    <MESSAGE value="Find treasure impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find treasure impl" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

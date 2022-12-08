@@ -1,8 +1,5 @@
 package print_map;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class CreateMap {
     public CreateMap(char[][] board) {
         this.board = board;
@@ -12,7 +9,7 @@ public class CreateMap {
     char[][] board;
 
     public char setStartPoint(int x, int y) {
-        return board[x][y] = 120;
+        return board[x][y] = 115;
     }
 
     public char setEndPoint(int x, int y) {
