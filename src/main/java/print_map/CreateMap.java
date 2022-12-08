@@ -4,17 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CreateMap {
-
-    public static void main(String[] args) {
-        CreateMap createMap = new CreateMap();
-        createMap.fillBoard();
-        createMap.setStartPoint(0, 0);
-        createMap.setEndPoint(3, 3);
-        createMap.printBoard();
-
+    public CreateMap(char[][] board) {
+        this.board = board;
+        fillBoard();
     }
 
-    char[][] board = new char[4][4];
+    char[][] board;
 
     public char setStartPoint(int x, int y) {
         return board[x][y] = 120;
