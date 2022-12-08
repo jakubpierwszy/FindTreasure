@@ -24,11 +24,17 @@ public class CreateMap {
         }
     }
 
+    public static final String ANSI_YELLOW = "\u001B[33m";
+    public static final String ANSI_RESET = "\u001B[0m";
 
     public void printBoard() {
         for (char[] chars : board) {
             for (int j = 0; j < board.length; j++) {
-                System.out.print(chars[j] + " | ");
+                if (chars[j] == 126) {
+                    System.out.print(ANSI_YELLOW + chars[j] + ANSI_RESET + " | ");
+                } else {
+                    System.out.print(ANSI_RESET + chars[j] + " | ");
+                }
             }
             System.out.println();
             for (int x = 0; x < board.length; x++) {

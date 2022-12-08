@@ -10,14 +10,14 @@ public class FindTreasure {
 
     //startpoint
     static int xS = 0;
-    static int yS = 0;
+    static int yS = 3;
     //endpoint
     static int xZ = 3;
-    static int yZ = 2;
+    static int yZ = 0;
 
     public static void main(String[] args) {
-        createMap.setStartPoint(0, 0);
-        createMap.setEndPoint(3, 3);
+        createMap.setStartPoint(xS, yS);
+        createMap.setEndPoint(xZ, yZ);
         createMap.printBoard();
         System.out.println();
         System.out.println();
@@ -25,33 +25,50 @@ public class FindTreasure {
         findWay();
 
         printMoveMap();
+        printMoveBoard();
     }
 
     static List<Integer> xlist = new ArrayList<>();
     static List<Integer> ylist = new ArrayList<>();
 
     public static void findWay() {
-        while ((xS < xZ) || (yS < yZ)) {
-            if (xS < xZ) {
+        while ((xS != xZ) || (yS != yZ)) {
+            if (xS != xZ) {
                 lookX();
-            } else if (yS < yZ) {
+            } else if (yS != yZ) {
                 lookY();
             }
         }
     }
 
     public static boolean lookX() {
-        if (checkMove(board[xS + 1][yS])) {
-            xlist.add(xS + 1);
-            ylist.add(yS);
-            xS++;
-            return true;
+        if (xS > xZ) {
+            if (checkMove(board[xS - 1][yS])) {
+                xlist.add(xS - 1);
+                ylist.add(yS);
+                xS--;
+                return true;
+            }
+        } else {
+            if (checkMove(board[xS + 1][yS])) {
+                xlist.add(xS + 1);
+                ylist.add(yS);
+                xS++;
+                return true;
+            }
         }
         return false;
     }
 
     public static boolean lookY() {
-        if (checkMove(board[xS][yS + 1])) {
+        if (yS > yZ) {
+            if (checkMove(board[xS][yS - 1])) {
+                xlist.add(xS);
+                ylist.add(yS - 1);
+                yS--;
+                return true;
+            }
+        } else if (checkMove(board[xS][yS + 1])) {
             xlist.add(xS);
             ylist.add(yS + 1);
             yS++;
@@ -65,6 +82,14 @@ public class FindTreasure {
             System.out.print("x:" + xlist.get(i) + " ");
             System.out.println("y:" + ylist.get(i));
         }
+    }
+
+
+    public static void printMoveBoard() {
+        for (int i = 0; i < xlist.size() - 1; i++) {
+            board[xlist.get(i)][ylist.get(i)] = 126;
+        }
+        createMap.printBoard();
     }
 
     public static boolean checkMove(char sign) {
