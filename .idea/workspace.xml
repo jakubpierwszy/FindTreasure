@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="918bbfa9-6178-4515-a32c-1dbc1edec2d6" name="Changes" comment="Find treasure impl">
+    <list default="true" id="918bbfa9-6178-4515-a32c-1dbc1edec2d6" name="Changes" comment="Find treasure with walls">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/find_treasure/FindTreasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/find_treasure/FindTreasure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/print_map/CreateMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/print_map/CreateMap.java" afterDir="false" />
@@ -86,7 +86,11 @@
       <option name="presentableId" value="Default" />
       <updated>1670500977637</updated>
       <workItem from="1670500978941" duration="5551000" />
-      <workItem from="1670512429646" duration="11587000" />
+      <workItem from="1670512429646" duration="11640000" />
+      <workItem from="1670528140510" duration="83000" />
+      <workItem from="1670529350480" duration="1891000" />
+      <workItem from="1670531740625" duration="27000" />
+      <workItem from="1670667416983" duration="655000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <created>1670501225659</created>
@@ -123,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670523582771</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Find treasure minus punkt and mark move as color">
+      <created>1670526020116</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670526020116</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,17 +156,8 @@
     <MESSAGE value="pom change version" />
     <MESSAGE value="clear" />
     <MESSAGE value="Find treasure impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find treasure impl" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
-          <option name="timeStamp" value="18" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Find treasure minus punkt and mark move as color" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find treasure minus punkt and mark move as color" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -10,21 +10,32 @@ public class FindTreasure {
 
     //startpoint
     static int xS = 0;
-    static int yS = 3;
+    static int yS = 0;
     //endpoint
     static int xZ = 3;
-    static int yZ = 0;
+    static int yZ = 3;
 
     public static void main(String[] args) {
         createMap.setStartPoint(xS, yS);
         createMap.setEndPoint(xZ, yZ);
+        createMap.setWall(1, 0);
+        createMap.setWall(1, 2);
+        createMap.setWall(2, 2);
+        createMap.setWall(1, 1);
+        createMap.setWall(1, 3);
+
+
         createMap.printBoard();
         System.out.println();
         System.out.println();
-
-        findWay();
+        try {
+            findWay();
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println("There is no way to treasure!");
+        }
 
         printMoveMap();
+        System.out.println();
         printMoveBoard();
     }
 
@@ -48,6 +59,8 @@ public class FindTreasure {
                 ylist.add(yS);
                 xS--;
                 return true;
+            } else {
+                lookY();
             }
         } else {
             if (checkMove(board[xS + 1][yS])) {
@@ -55,6 +68,8 @@ public class FindTreasure {
                 ylist.add(yS);
                 xS++;
                 return true;
+            } else {
+                lookY();
             }
         }
         return false;
@@ -67,12 +82,16 @@ public class FindTreasure {
                 ylist.add(yS - 1);
                 yS--;
                 return true;
+            } else {
+                lookX();
             }
         } else if (checkMove(board[xS][yS + 1])) {
             xlist.add(xS);
             ylist.add(yS + 1);
             yS++;
             return true;
+        } else {
+            lookX();
         }
         return false;
     }

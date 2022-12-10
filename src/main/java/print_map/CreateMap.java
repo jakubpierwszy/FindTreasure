@@ -16,6 +16,10 @@ public class CreateMap {
         return board[x][y] = 122;
     }
 
+    public char setWall(int x, int y) {
+        return board[x][y] = 88;
+    }
+
     public void fillBoard() {
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board.length; j++) {
