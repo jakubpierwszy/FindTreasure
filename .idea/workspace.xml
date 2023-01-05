@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="918bbfa9-6178-4515-a32c-1dbc1edec2d6" name="Changes" comment="Try catch IndexOutOfBounds">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/find_treasure/FindTreasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/find_treasure/FindTreasure.java" afterDir="false" />
-    </list>
+    <list default="true" id="918bbfa9-6178-4515-a32c-1dbc1edec2d6" name="Changes" comment="Try catch IndexOutOfBounds" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
