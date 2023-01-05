@@ -21,9 +21,7 @@ public class FindTreasure {
         createMap.setWall(1, 0);
         createMap.setWall(1, 2);
         createMap.setWall(2, 2);
-        createMap.setWall(1, 1);
         createMap.setWall(1, 3);
-
 
         createMap.printBoard();
         System.out.println();

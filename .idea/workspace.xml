@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="918bbfa9-6178-4515-a32c-1dbc1edec2d6" name="Changes" comment="Find treasure with walls">
+    <list default="true" id="918bbfa9-6178-4515-a32c-1dbc1edec2d6" name="Changes" comment="Try catch IndexOutOfBounds">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/find_treasure/FindTreasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/find_treasure/FindTreasure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/print_map/CreateMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/print_map/CreateMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="FindTres" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,7 +91,11 @@
       <workItem from="1670528140510" duration="83000" />
       <workItem from="1670529350480" duration="1891000" />
       <workItem from="1670531740625" duration="27000" />
-      <workItem from="1670667416983" duration="655000" />
+      <workItem from="1670667416983" duration="2530000" />
+      <workItem from="1671040758381" duration="59000" />
+      <workItem from="1671273618865" duration="59000" />
+      <workItem from="1672844637862" duration="21000" />
+      <workItem from="1672945138723" duration="445000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <created>1670501225659</created>
@@ -134,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670526020116</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Try catch IndexOutOfBounds">
+      <created>1670668123865</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670668123865</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +169,8 @@
     <MESSAGE value="clear" />
     <MESSAGE value="Find treasure impl" />
     <MESSAGE value="Find treasure minus punkt and mark move as color" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find treasure minus punkt and mark move as color" />
+    <MESSAGE value="Try catch IndexOutOfBounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try catch IndexOutOfBounds" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
